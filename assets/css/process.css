@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+    
+    
+}
+
+body { 
+    background: url(../images/greyBackground.png) no-repeat center center fixed; 
+    background-size: cover;
+    
+}
+
+#logo {
+    position: absolute;
+    margin-left: 3%;
+    top: 3%;
+}
+
+#logo img {
+    border-radius: 2px;
+    
+}
+
+#contentNav ul {
+    position: absolute;
+    margin-top: 3%;
+    left: 3%;    
+    
+}
+
+#contentNav ul li {
+    display: inline; 
+    
+}
+
+#contentNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1.5em;
+    
+}
+
+#contentNav ul li a:hover {
+    color: #fc4a1a;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -3px 7px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+#current a {
+    color: #fc4a1a;
+    background-image: linear-gradient(to bottom left, #fc4a1a, #ff7c59);
+    border-radius: 2px;
+    box-shadow: -3px 7px 30px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+#current a:hover {
+    background-image: linear-gradient(to bottom left, white, white);
+    
+}
+
+#nav ul {
+    position: absolute;
+    margin-top: 3%;
+    right: 3%;    
+    
+}
+
+#nav ul li {
+    display: inline; 
+    
+}
+
+#nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 2em;
+    font-size: 1.1em;
+    
+}
+
+#nav ul li a:hover {
+    color: #fc4a1a;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -3px 7px 30px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+h3 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    
+}
+
+figure {
+    width: 60;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    
+}

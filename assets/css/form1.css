@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+    
+}
+.text 
+{
+    width: 90vw;
+	padding-left: 2em;
+	padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+	text-align: left;
+	margin: 0 auto;
+	background-color: #7F7F7F;
+    font-size: 110%;
+	
+}
+
+.bottom
+{
+    height: 80%;
+    margin-top: 20%;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body { 
+    background: url(../images/greyBackground.png) no-repeat center center fixed; 
+    background-size: cover;
+    
+}
+
+footer
+{
+	border-top: solid black 1px;
+	width:100%; /**/
+	text-align: center;
+    background-color: black;
+}
+
+.MyValues p {display:inline;}
+
+#navcontainer ul
+{
+padding-left: 0;
+margin-left: 0;
+margin-top: 2em;
+background-color: rgba(255, 255, 255, 0);
+color: Black;
+float: right;
+width: 100%; /**/
+font-family: arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+padding: 0.2em 1em;
+background-color: rgba(255, 255, 255, 0);
+color: Black;
+text-decoration: none;
+float: right;
+
+}
+
+#navcontainer ul li a:hover
+{
+background-color: #fc4a1a;
+color: #fff;
+border-radius: 5px;
+
+}
+
+#navcontainerB ul
+{
+padding-left: 0;
+margin-left: 0;
+margin-top: 2em;
+background-color: rgba(255, 255, 255, 0);
+color: White;
+float: right;
+width: 100%; /**/
+font-family: arial, helvetica, sans-serif;
+font-size: 120%;
+}
+
+#navcontainerB ul li { display: inline; }
+
+#navcontainerB ul li a
+{
+padding: 0.2em 1em;
+background-color: rgba(255, 255, 255, 0);
+color: White;
+text-decoration: none;
+float: right;
+
+}
+
+#navcontainerB ul li a:hover
+{
+background-color: #013E8E;
+color: #fff;
+border-radius: 5px;
+
+}
+.navlist li a#current
+{
+background: #fc4a1a;
+border-bottom: 1px solid rgba(255, 255, 255, 1);
+border-radius: 5px;
+color: #fff;
+
+
+}
+/*
+.nav{
+	width: 100%;  
+	font-size: 90%;
+	margin: 0 auto;
+	background-color: White;
+	
+}
+*/
+.menu{background-color: rgba(255, 255, 255, 0.7); width:600px; height:3em;overflow:hidden;transition:height .5s; border-radius: 15px; border-top-left-radius:0;}
+
+.menu:hover{height:25em;}
+
+
+h1 {
+    font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin: -30px -5px 10px -30px;
+    color: #FFF;
+    background: #fc4a1a;
+	padding: 20px 0px 48px 40px;
+    display: block;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom:3px solid #013E8E;
+    
+
+}
+
+
+h1>p {
+    display: block;
+    font-size: 11px;
+    color: #FFF;
+}
+h3 {
+    color: #fc4a1a
+}
+label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+label>p {
+    float: left;
+    margin-top: 10px;
+    color: #437F97;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="color"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+select {
+    color: #555;
+    height: 30px;
+	width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-top: 2px;
+    border: 1px solid #E5E5E5;
+    background: #FBFBFB;
+    outline: 0;
+    line-height:15px;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    font: normal 14px/14px Arial, Helvetica, sans-serif;
+}
+textarea{
+    height:100px;
+    padding-top: 10px;
+}
+select {
+    width:100%;
+    height:30px;
+	appearance:none;
+    -webkit-appearance:none;
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+.leftColumb
+{
+	width:45vw;
+	height:7.5em; 
+	display:table-cell; 
+	vertical-align: top;
+	padding-right:4em;
+			   
+
+}
+
+.rightColumb
+{   
+	width: 100vw; 
+	height:7.5em;	  
+	text-align:right;
+/*  float:right; */ 
+	display:table-cell;
+			  
+}
+
+.rule {
+	color:red;
+	top:0.33em;
+	font-size:2.2em;
+	position:relative;
+
+}
+
+.button {
+    background-color: #849324;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+    transition:all 1s linear;
+}
+.button:hover {
+	cursor:pointer;
+    background-color:#80A24A;
+}
+
+#inputName input {
+	width:430px;
+	display:inline;
+}
+#inputVisit input {
+	width:10em;
+}
+
+.indent{
+	position:relative;
+	left:25px;
+}
+
+.astrix {
+	position:relative;
+	left:-0.20em;
+	color:red;
+	display:inline;
+	top:0.42em;
+	font-size:3.5em;
+}
+
+#contentNav ul {
+    position: absolute;
+    margin-top: 3%;
+    left: 3%;    
+    
+}
+
+#contentNav ul li {
+    display: inline; 
+    
+}
+
+#contentNav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-size: 1.5em;
+    
+}
+
+#contentNav ul li a:hover {
+    color: #fc4a1a;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -3px 7px 30px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 500px) {
+	/* For medium screens: */
+    h1{
+        font-size: 80%;
+    }
+    .leftColumb{
+        /*width: 23%;*/
+        height: 3.5em;
+        padding-right: 1em;
+    }
+    .rightColumb{
+        /*width: 35%; */
+	    height:8.5em;
+    }
+    .navlist{
+        width: 100vw;
+        color: #000000;
+        height: 8em;
+    }
+    #navcontainerB {
+        color: #000000;
+    }
+    footer{
+        background-color: black;
+    }
+    
+    .text{
+        width:90vw;
+    }
+    
+}
+
+#current {
+    color: #fc4a1a;
+    background-image: linear-gradient(to bottom left, #fc4a1a, #ff7c59);
+    border-radius: 2px;
+    box-shadow: -3px 7px 30px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+#current: hover {
+    color: white;
+    
+}
+
+#nav ul {
+    position: absolute;
+    margin-top: 3%;
+    right: 3%;    
+    
+}
+
+#nav ul li {
+    display: inline; 
+    
+}
+
+#nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 2em;
+    font-size: 1.1em;
+    
+}
+
+#nav ul li a:hover {
+    color: #fc4a1a;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: -3px 7px 30px 3px rgba(0, 0, 0, 0.2);
+    
+}
+		
+@media only screen and (max-width: 300px) {
+    /* for phones */
+}
