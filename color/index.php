@@ -1,3 +1,7 @@
+<?php
+session_start();
+session_name("lijingzhangcould6");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,6 +106,17 @@
         <p class="information">To remove the color sampler marker from the image when you're done, with the Color Sampler Tool selected, simply click on the <strong>Clear</strong> button in the Options Bar at the top of the screen</p>
         
         <figure class="inUse"><img style="width: 100%;" src="../assets/images/clear.jpeg"></figure>
+
+        <form id="quizForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET" onsubmit="return validateForm();">
+
+            <?php
+
+            $tutorial = "t2";
+            include "../assets/include/quiz_tutrial.php";
+
+            ?>
+            <p><input class="button" type="submit" value="Submit" /></p>
+        </form>
     </div>
     
 </body>    

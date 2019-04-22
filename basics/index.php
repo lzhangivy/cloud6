@@ -1,3 +1,8 @@
+<?php
+session_start();
+session_name("lijingzhangcould6");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +72,17 @@
         Once you find the color that you enjoy, take the hex code, #000000, and go to the color swatch, where the foreground color and background color are shown. Replace the hex code and the color of your choice will be shown. If you are not satisfied with it, then you can revise your color until you found the correct one. Foreground Color is the upper color selection box, and background color is the color selection box behind the foreground color. Both of the selection color box can be switched in both ways by clicking the arrow swap tool to switch the color. Often times, the selection color box’s purpose is to paint, fill the color, and also apply the effects.  
 </p>
         <figure class="inUse"><img style="width: 100%;" src="../assets/images/color.png" style="width: 600px"></figure>
-    
+
+        <form id="quizForm" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET" onsubmit="return validateForm();">
+
+            <?php
+
+            $tutorial = "t1";
+            include "../assets/include/quiz_tutrial.php";
+
+            ?>
+            <p><input class="button" type="submit" value="Submit" /></p>
+        </form>
     </div>
     
 </body>    

@@ -100,118 +100,122 @@ body {
     
 }
 
-@media screen and (max-width: 1300px){ 
+@media screen and (max-width: 1300px) {
     #title {
         top: 25%;
         /* bottom: 14%; */
-    
+
     }
-    
-    #title h1{
+
+    #title h1 {
         font-size: 8em;
 
     }
-    
+
     #topics {
         margin-top: 10%;
 
     }
-    
-    #topics div{
-    font-size: 1.2em;
-    margin: 1em;
-    margin-right: 0;
-    padding-right: 5em;
-    padding-left: 5em;
-    padding-top: 2em;
-    padding-bottom: 2em;   
 
+    #topics div {
+        font-size: 1.2em;
+        margin: 1em;
+        margin-right: 0;
+        padding-right: 5em;
+        padding-left: 5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+    }
 }
     
-@media screen and (max-width: 1050px){ 
+@media screen and (max-width: 1050px) {
     #title {
         top: 25%;
         /* bottom: 14%; */
-    
+
     }
-    
-    #title h1{
+
+    #title h1 {
         font-size: 7em;
 
     }
-    
+
     #topics {
         margin-top: 12%;
 
     }
-    
-    #topics div{
-    font-size: 1.1em;
-    margin: 1em;
-    margin-right: 0;
-    padding-right: 4em;
-    padding-left: 4em;
-    padding-top: 2em;
-    padding-bottom: 2em;   
 
+    #topics div {
+        font-size: 1.1em;
+        margin: 1em;
+        margin-right: 0;
+        padding-right: 4em;
+        padding-left: 4em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+    }
 }
     
-    @media screen and (max-width: 900px){ 
-    #title {
-        top: 25%;
-        /* bottom: 14%; */
-    
-    }
-    
-    #title h1{
-        font-size: 6em;
+    @media screen and (max-width: 900px) {
+        #title {
+            top: 25%;
+            /* bottom: 14%; */
 
-    }
-    
-    #topics {
-        margin-top: 12%;
+        }
 
-    }
-    
-    #topics div{
-    font-size: 1.1em;
-    margin: 1em;
-    margin-right: 0;
-    padding-right: 4em;
-    padding-left: 4em;
-    padding-top: 2em;
-    padding-bottom: 2em;   
+        #title h1 {
+            font-size: 6em;
 
-}
+        }
+
+        #topics {
+            margin-top: 12%;
+
+        }
+
+        #topics div {
+            font-size: 1.1em;
+            margin: 1em;
+            margin-right: 0;
+            padding-right: 4em;
+            padding-left: 4em;
+            padding-top: 2em;
+            padding-bottom: 2em;
+
+        }
+    }
         
-@media screen and (max-width: 800px){ 
+@media screen and (max-width: 800px) {
     #title {
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
         margin-top: 10%;
-    /* bottom: 10%; */
-    
-}
-    
-    #title h1{
+        /* bottom: 10%; */
+
+    }
+
+    #title h1 {
         font-size: 5em;
 
     }
-    
+
     #topics {
         margin-top: 12%;
 
     }
-    
-    #topics div{
-    font-size: 1.1em;
-    margin: 1em;
-    margin-right: 0;
-    padding-right: 4em;
-    padding-left: 4em;
-    padding-top: 2em;
-    padding-bottom: 2em;   
 
+    #topics div {
+        font-size: 1.1em;
+        margin: 1em;
+        margin-right: 0;
+        padding-right: 4em;
+        padding-left: 4em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+    }
 }
 

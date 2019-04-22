@@ -18,8 +18,8 @@
 	$attractions    = test_input($_POST['attractions']);
 	
  
-    $destination_email = "ztt7494@g.rit.edu";  // your email address
-
+//    $destination_email = "ztt7494@g.rit.edu";  // your email address
+    $destination_email = "ivy66666@qq.com";
 
 	//$destination_email = "RITISTprofessor@gmail.com, ccm6629@rit.edu";
 	$email_subject = "Norway - Moore, Coleman ISTE240.01";
@@ -36,7 +36,7 @@ echo "Data Sent";
 <head>
 	<meta charset="utf-8" />
 	<title>Photoshop Survey</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/process.css">
+    <link rel="stylesheet" type="text/css" href="../css/process.css">
     <link href="https://fonts.googleapis.com/css?family=Century+Gothic:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
@@ -48,19 +48,19 @@ echo "Data Sent";
     
     <div id="nav">
     <ul>
-        <li><a href="../index.php">home</a></li>
-        <li><a href="../form/index.php">survey</a></li>
-        <li><a href="../blog/index.php">blog</a></li>
-        <li><a href="../quiz/index.php">quiz</a></li>
+        <li><a href="../../index.php">home</a></li>
+        <li><a href="../../form/index.php">survey</a></li>
+        <li><a href="../../blog/index.php">blog</a></li>
+        <li><a href="../../quiz/index.php">quiz</a></li>
         <li><a href="#">about</a></li>
     </ul> 
     </div>
     
     <div id="contentNav">
     <ul>
-        <li><a  href="../basics/index.php">Photoshop Basics</a></li>
-        <li><a href="../color/index.php">Color Correction</a></li>
-        <li id="current"><a href="../lasso/index.php">Lasso Tool</a></li>
+        <li><a  href="../../basics/index.php">Photoshop Basics</a></li>
+        <li><a href="../../color/index.php">Color Correction</a></li>
+        <li id="current"><a href="../../lasso/index.php">Lasso Tool</a></li>
     </ul> 
     </div>
     
@@ -72,7 +72,7 @@ echo "Data Sent";
     of your day to complete our survey it will help our site improve for future guests.</h3>
     
     <figure>
-    <img src="../assets/images/thankYou.png" title="cloud6" alt="cloud6" style="width: 100%;">
+    <img src="../images/thankYou.png" title="cloud6" alt="cloud6" style="width: 100%;">
     </figure>
 
 </body>

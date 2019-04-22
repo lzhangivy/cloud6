@@ -37,7 +37,7 @@
 
 <body>
     <div id="content">
-    <form action="process.php" method="POST" class="wrapper"
+    <form action="../assets/include/process.php" method="POST" class="wrapper"
          onsubmit="return validateForm();">
 	
 	
